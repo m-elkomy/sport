@@ -1,0 +1,145 @@
+/* start main rules */
+body{font-size:18px;background-color:#f2f2f2;}
+.asterisk{
+    position: absolute;
+    right:30px;
+    top:6px;
+    font-size:30px;
+    color:#f00;
+}
+.show-pass{
+    position: absolute;
+    right:-30px;
+    top:5px;
+    cursor: pointer;
+}
+.message{border-left:5px solid #286090;}
+/* end main rules */
+/* start login form */
+.home{
+    width:100%;
+    height:100%;
+    background-color:#74b9ff;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.form{
+    width:400px;
+    margin:100px auto;
+    height:400px;
+    background-color:#fff;
+    border-radius:20px;
+}
+.form h2{
+    padding-top:20px;
+}
+.login{
+    width:300px;
+    margin:70px auto;
+}
+.login .input-group{
+    margin-bottom:10px;
+}
+/* end login form */
+/* start navbar */
+.navbar{border-radius:0px;}
+.navbar-nav>li>a{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.navbar-brand{
+    padding:20px 15px;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu>li>a{
+    background-color: #ff8989;
+}
+.dropdown-menu>li>a{
+    padding:10px 20px;
+    color:#fff;
+}
+.dropdown-menu{
+    font-size:1em;
+    min-width:180px;
+    padding:0}
+/* end navbar */
+/* start player */
+h2{
+    font-weight:bold;
+    font-size:55px;
+    color:#333;
+    margin-bottom:50px;
+}
+/* end plaery */
+/* start member */
+.table>tbody>tr>td, .table>tbody>tr>th,
+.table>tfoot>tr>td, .table>tfoot>tr>th,
+.table>thead>tr>td, .table>thead>tr>th{
+    vertical-align: middle;
+}
+.main-table tr:first-child{
+    background-color:#333;
+    color:#fff;
+}
+.table{background: #fff;}
+.main-table .btn{margin-left:5px;}
+.add{
+    margin-top:-10px;
+    margin-bottom:10px;
+}
+/* end member */
+/* start dashboard */
+.main-states .state{
+    padding:20px;
+    font-size:16px;
+    color:#fff;
+    border-radius:10px;
+    position: relative;
+    overflow: hidden;
+}
+.main-states .state i{
+
+    top:35px;
+    left:30px;
+    font-size:80px;
+}
+
+.main-states .state .info{
+    float:right;
+}
+.main-states .st-member{
+    background-color:#778beb;
+
+}
+.main-states .st-pending{
+    background-color:#e15f41;
+}
+.main-states .st-item{
+    background-color:#63cdda;
+}
+.main-states .st-comment{
+    background-color:#f3a683;
+}
+.main-states .state span{
+    display: block;
+    font-size:60px;
+}
+.main-states .state span a{
+    color:#fff;
+    text-decoration:none;
+}
+.latest{margin-top:50px;}
+.latest .latest-user li{
+    padding:10px;
+}
+.latest .latest-user li:nth-child(odd){
+    background-color:#eee;
+}
+.latest .panel-heading i{
+    cursor: pointer;}
+/* end dashboard */
